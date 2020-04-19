@@ -1,3 +1,34 @@
-.my_navigation a {
+.main {
+  padding: 20px;
+  margin: 30px;
+  text-align: justify;
+}
+
+.main tr,td{
+  border: 1px solid black;
+  padding: 10px;
 
 }
+#external_row{
+  font-style: italic;
+}
+img[src^="img"]{
+  width: 100%;
+  padding: 20px;
+
+}
+.table_header{
+  text-align: center;
+  background-color: gray;
+
+}
+
+section>h2 {
+  text-decoration-line: underline;
+}
+
+li::selection {background-color: yellow}
+
+section li {font-size: 18px}
+
+@media (max-width: 575.98px) {#my_photo{display:none}}

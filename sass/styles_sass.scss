@@ -1,23 +1,20 @@
 @import "C:/Users/Nikolay/dev/bootstrap-4.1.3/scss/functions";
 @import "C:/Users/Nikolay/dev/bootstrap-4.1.3/scss/variables";
 @import "C:/Users/Nikolay/dev/bootstrap-4.1.3/scss/mixins";
+$fonts : 'Times New Roman', Times, serif;
 
-.row {
+section .row {
   div{
-    font-family: arial, sans-serif;
+    @extend .main;
     text-align: center;
   }
 }
-
+.main{
+  font-family: $fonts;
+}
 .top {
   div {
-
     margin-left: auto;
     margin-top: auto;
-  }
-}
-@include media-breakpoint-down(xs) {
-  #my_photo{
-    display: none;
   }
 }
